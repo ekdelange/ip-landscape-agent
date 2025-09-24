@@ -1,0 +1,20 @@
+{
+  "type":"object",
+  "properties":{
+    "vendor":{"type":"string"},
+    "product":{"type":"string"},
+    "domain":{"type":"string"},
+    "power_W":{"type":"number"},
+    "freq_MHz":{"type":"number"},
+    "efficiency_pct":{"type":"number"},
+    "tuning_time_ms":{"type":"number"},
+    "cooling":{"type":"string"},
+    "interfaces":{"type":"string"},
+    "actuation":{"type":"string"},
+    "algorithm":{"type":"string"},
+    "footprint":{"type":"string"},
+    "notes":{"type":"string"},
+    "confidence":{"type":"string"}
+  },
+  "required":["vendor","product","domain"]
+}

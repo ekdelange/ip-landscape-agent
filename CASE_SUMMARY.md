@@ -1,0 +1,2 @@
+# Case Study — Scope Summary
+Your 15-minute presentation must cover: **Purpose** (aligned to division: >25% YoY growth; protect RF subsystem leadership; be recognized as tech leader), **3–5 Objectives (6–12m)**, **Implementation Plan** (governance/process, change, tools, team), **3–4 KPIs**, and **Comms/Stakeholders**. This workspace helps build two prerequisite research packs: 1) IP Landscape, 2) SoTA.

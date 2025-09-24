@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Validate data tables",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "windows": { "command": ".\\.venv\\Scripts\\python.exe" },
+      "args": ["scripts/validate.py"]
+    },
+    {
+      "label": "Build draft reports (MD)",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "windows": { "command": ".\\.venv\\Scripts\\python.exe" },
+      "args": ["scripts/make_reports.py"]
+    }
+  ]
+}

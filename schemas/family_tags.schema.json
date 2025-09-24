@@ -1,0 +1,10 @@
+{
+  "type":"object",
+  "properties":{
+    "family_id":{"type":"string"},
+    "tag":{"type":"string"},
+    "confidence":{"type":"number","minimum":0,"maximum":1},
+    "source_rule":{"type":"string"}
+  },
+  "required":["family_id","tag"]
+}

@@ -1,0 +1,12 @@
+{
+  "type":"object",
+  "properties":{
+    "domain":{"type":"string"},
+    "metric":{"type":"string"},
+    "how_measured":{"type":"string"},
+    "typical_range":{"type":"string"},
+    "best_observed":{"type":"string"},
+    "source_id":{"type":"string"}
+  },
+  "required":["domain","metric"]
+}

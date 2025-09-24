@@ -1,0 +1,5 @@
+- Reproducible queries recorded (`queries/query_library.csv`)
+- QA sheet (≥50 labels) with precision/recall notes
+- Family-level analytics (not doc-level) & ≤36m recent-filings lens
+- Every SoTA claim traceable to citation (source_id)
+- Datasheet vs independent tests separated in `product_specs.csv`

@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "github.copilot-chat",
+    "bierner.markdown-mermaid",
+    "yzhang.markdown-all-in-one",
+    "redhat.vscode-yaml",
+    "Gruntfuggly.todo-tree"
+  ]
+}

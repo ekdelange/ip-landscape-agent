@@ -1,0 +1,15 @@
+{
+  "domains": ["RF Generator","Matching Network","Vacuum Capacitor","Firmware/Control","Sensors","Reliability/EMC/Thermal"],
+  "synonyms": {
+    "RF Generator": ["RF power supply","RF source","RF amplifier","class E","class F","LDMOS","GaN"],
+    "Matching Network": ["impedance matching","matchbox","pi network","π network","tuner","impedance tuner","auto-matching"],
+    "Vacuum Capacitor": ["tuning capacitor","vac cap","variable capacitor","high voltage capacitor"],
+    "Firmware/Control": ["controller","DSP","FPGA","PID","model predictive control","pulsed RF","multi-frequency"],
+    "Sensors": ["VI probe","voltage current probe","arc detect","harmonic sensor"],
+    "Reliability/EMC/Thermal": ["MTBF","derating","EMI","EMC","cooling","thermal management"]
+  },
+  "negative_terms": {"RF Generator": ["microwave oven","medical diathermy"]},
+  "assignee_aliases": {"COMET": ["Comet AG","COMET PCT","Comet Plasma Control Technologies"]},
+  "geos": ["US","EP","JP","KR","CN","TW"],
+  "years": {"from": 2005, "to": 2030}
+}

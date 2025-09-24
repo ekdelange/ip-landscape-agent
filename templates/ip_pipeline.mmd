@@ -1,0 +1,9 @@
+flowchart LR
+M[Mining workshops / IDFs] --> T[Triage (scorecard)]
+T --> S[Search & Analysis]
+S --> D{Decision}
+D -->|File| F[Draft & File]
+D -->|Publish defensive| PUB[Publish]
+D -->|Trade secret| TS[Register & Protect]
+F --> PR[Prosecution & Portfolio mgmt]
+PR --> MAINT[Maintenance & Pruning]

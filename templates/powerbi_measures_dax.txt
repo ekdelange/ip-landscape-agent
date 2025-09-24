@@ -1,0 +1,4 @@
+Roadmap Coverage % := DIVIDE(SUM(roadmap_links[revenue_linked]), SUM(revenue[total_revenue]))
+Portfolio Focus % := DIVIDE(CALCULATE(SUM(hours[value]), FILTER(projects, projects[rank] <= 10)), SUM(hours[value]))
+IDFs per 10 FTE := DIVIDE(COUNTROWS(IDF), DIVIDE(SUM(RnD_FTE[value]), 10))
+Median IDF Lead Time := MEDIANX(IDF, IDF[days_to_decision])

@@ -1,0 +1,14 @@
+{
+  "type":"object",
+  "properties":{
+    "source_id":{"type":"string"},
+    "domain":{"type":"string"},
+    "metric":{"type":"string"},
+    "value":{"type":"number"},
+    "units":{"type":"string"},
+    "conditions":{"type":"string"},
+    "citation":{"type":"string"},
+    "evidence_level":{"type":"string"}
+  },
+  "required":["source_id","domain","metric","value","units","citation"]
+}

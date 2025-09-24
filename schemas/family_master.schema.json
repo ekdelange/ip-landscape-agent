@@ -1,0 +1,17 @@
+{
+  "type":"object",
+  "properties":{
+    "family_id":{"type":"string"},
+    "earliest_priority_date":{"type":"string","format":"date"},
+    "assignee_std":{"type":"string"},
+    "domains":{"type":"array","items":{"type":"string"}},
+    "geo_coverage":{"type":"array","items":{"type":"string"}},
+    "status":{"type":"string"},
+    "fwd_cites":{"type":"integer","minimum":0},
+    "bwd_cites":{"type":"integer","minimum":0},
+    "key_claim_len":{"type":"integer","minimum":0},
+    "title":{"type":"string"},
+    "abstract":{"type":"string"}
+  },
+  "required":["family_id","earliest_priority_date","assignee_std","domains"]
+}

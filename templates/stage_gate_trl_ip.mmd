@@ -1,0 +1,8 @@
+flowchart LR
+S1[TRL1-3 Explore] --> G1{Gate 1: Hypothesis proven? IP checkpoint}
+G1 -->|Yes| S2[TRL4-6 Validate]
+G1 -->|No/Stop| X[Stop/Park]
+S2 --> G2{Gate 2: Feasible? FTO OK?}
+G2 -->|Yes| S3[TRL7-8 Scale]
+G2 -->|No/Stop| X
+S3 --> G3{Gate 3: Transfer/Exploit} --> P[Productization/Transfer]
